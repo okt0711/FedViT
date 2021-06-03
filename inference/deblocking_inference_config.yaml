@@ -1,0 +1,24 @@
+model_config:
+  params:
+    lr: 3e-5
+    epochs: 400
+  transformer_config:
+    name: transformer
+    n_token: 256
+    n_head: 8
+    n_embed: 512
+    n_hid: 1024
+    n_layer: 8
+    dropout: 0.1
+  
+inference_config:
+  task: deblocking
+  ckpt_root: ./inference/checkpoints/
+  body_load_cycle: 3
+  save_dir: ./inference/results/
+
+data_config:
+  dataroot: ./
+  cropsize: 64
+  batch_size: 1
+  num_workers: 0
