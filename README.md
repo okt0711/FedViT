@@ -1,5 +1,5 @@
 ![Image of The Proposed method](figs/method.png)
-# FedViT: Federated Vision Transformer for Task-Agnostic Image Processing
+# Federated Split Vision Transformer for Task-Agnostic Privacy-Preserving Vision Tasks
 
 This repository is the official implementation of FedViT. 
 
