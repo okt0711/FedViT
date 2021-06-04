@@ -58,9 +58,9 @@ Copy downloaded checkpoint file to proper directory under 'inference/checkpoints
 
 **Denoising**
 ![visual_denoise](figs/results_denoise.png)
-| Metric | Input | CBM3D | FFDNet | IRCNN | DHDN | SADNet | Base | Single | Multi |
-|--------| ------| ------| -------| ------| -----| -------| -----| -------|-------|
-| PSNR<br>SSIM | 19.03<br>0.336 | 29.71<br>0.843 | 30.32<br>0.860 | 30.31<br>0.860| 30.41<br>0.864| 30.64<br>N/A| 30.43<br>0.864 | 30.65<br>0.870 | 30.69<br>0.871|
+| Metric | Input | CBM3D | DnCNN | FFDNet | IRCNN | DHDN | SADNet | Base | Single | Multi |
+|--------| ------| ------| ------| -------| ------| -----| -------| -----| -------|-------|
+| PSNR<br>SSIM | 19.03<br>0.336 | 29.71<br>0.843 | 30.32<br>0.861 | 30.31<br>0.860| 30.22<br>0.861| 30.41<br>0.864| 30.64<br>N/A| 30.43<br>0.864 | 30.65<br>0.870 | 30.69<br>0.871|
 
 
 **Deraining**
