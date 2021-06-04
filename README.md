@@ -50,7 +50,7 @@ Copy downloaded checkpoint file to proper directory under 'inference/checkpoints
 **Deblocking**
 ![visual_deblock](figs/results_deblock.png)
 
-| Quality | Metric | Input | DnCNN | AR-CNN | QCN | Base | Single | Multi |
+| Quality | Metric | Input | DnCNN | AR-CNN | QCN | E2E | NFL | FedViT |
 | --------|--------| ------| ------| -------| ----| -----| -------| ----- |
 |    10   | PSNR<br>SSIM   | 25.67<br>0.719 | 26.70<br>0.755 | 26.42<br>0.777  |27.66<br>0.811| 27.67<br>0.785| 27.59<br>0.785  | 27.69<br>0.786 |
 |    50   | PSNR<br>SSIM   | 31.51<br>0.902 | 32.70<br>0.918 | N/A<br>N/A  |33.00<br>0.934| 33.01<br>0.923| 32.93<br>0.924  | 33.20<br>0.924 |
@@ -58,14 +58,14 @@ Copy downloaded checkpoint file to proper directory under 'inference/checkpoints
 
 **Denoising**
 ![visual_denoise](figs/results_denoise.png)
-| Metric | Input | CBM3D | DnCNN | FFDNet | IRCNN | DHDN | SADNet | Base | Single | Multi |
+| Metric | Input | CBM3D | DnCNN | FFDNet | IRCNN | DHDN | SADNet | E2E | NFL | FedViT |
 |--------| ------| ------| ------| -------| ------| -----| -------| -----| -------|-------|
 | PSNR<br>SSIM | 19.03<br>0.336 | 29.71<br>0.843 | 30.32<br>0.861 | 30.31<br>0.860| 30.22<br>0.861| 30.41<br>0.864| 30.64<br>N/A| 30.43<br>0.864 | 30.65<br>0.870 | 30.69<br>0.871|
 
 
 **Deraining**
 ![visual_derain](figs/results_derain.png)
-| Dataset | Metric | Input | DerainNet | SEMI | UMRL | PreNet | MSPFN | Base | Single | Multi |
+| Dataset | Metric | Input | DerainNet | SEMI | UMRL | PreNet | MSPFN | E2E | NFL | FedViT |
 | --------|--------| ------| ----------| -----| -----| -------| ------| ---- | ------ | ----- |
 | Rain100H| PSNR<br>SSIM   | 12.13<br>0.349 | 14.92<br>0.592 | 16.56<br>0.486  |26.01<br>0.832| 26.77<br>0.858| 28.66<br>0.860 | 28.88<br>0.863 | 28.95<br>0.864 | 29.35<br>0.875|
 | Rain100L| PSNR<br>SSIM   | 25.52<br>0.825 | 27.03<br>0.884 | 25.03<br>0.842 |29.18<br>0.923 |32.44<br>0.950|32.40<br>0.933 |32.93<br>0.937| 32.50<br>0.935  | 34.30<br>0.949 |
@@ -73,7 +73,7 @@ Copy downloaded checkpoint file to proper directory under 'inference/checkpoints
 
 **Deblurring**
 ![visual_deblur](figs/results_deblur.png)
-| Metric | Input | DeblurGAN | Nah et al. | Zhang et al. | DeblurGANv2 | Base | Single | Multi |
+| Metric | Input | DeblurGAN | Nah et al. | Zhang et al. | DeblurGANv2 | E2E | NFL | FedViT |
 |--------| ------| ----------| -----------| -------------| ------------| -----| -------|-------|
 | PSNR<br>SSIM | 25.64<br>0.790 | 28.70<br>0.858 | 29.08<br>0.914 | 29.19<br>0.931 | 29.55<br>0.934| 28.62<br>0.864 | 29.28<br>0.877 | 30.06 <br> 0.894|
 
