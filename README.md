@@ -40,8 +40,7 @@ python deblurring_inference.py
 
 ## Pre-trained Models
 
-You can download pre-trained model checkpoints (.pt) from the this [Checkpoints](https://drive.google.com/drive/folders/1j_EXwzkMhl2y0TCsOnwg68lbYL0Q07RN?usp=sharing) link.
-
+You can download pre-trained model checkpoints (.pt) from this [Checkpoints](https://drive.google.com/drive/folders/1j_EXwzkMhl2y0TCsOnwg68lbYL0Q07RN?usp=sharing) link.
 Copy downloaded checkpoint file to proper directory under 'inference/checkpoints'.
 
 ## Results
